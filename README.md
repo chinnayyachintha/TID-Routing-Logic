@@ -38,4 +38,17 @@ The Lambda function should return the appropriate **Terminal ID** based on the i
 **Routing Logic** to determine and return the correct Terminal ID based on the provided conditions.
 **Testing** to ensure each condition routes to the correct Terminal ID.
 
+# Lambda Function for Terminal ID Lookup
+
+This Lambda function looks up a Terminal ID based on a provided currency and channel. It checks for the `(currency, channel)` pair in a predefined dictionary and returns the Terminal ID if a match is found.
+
+## Input JSON
+
+```json
+{
+    "currency": "CAD",
+    "channel": "Direct"
+}
+
+
 `In summary, this task requires creating a routing function in AWS Lambda that returns the correct TID depending on the input values of currency and channel type. Let me know if you'd like further guidance on writing the function or setting up the Lambda in AWS.`
